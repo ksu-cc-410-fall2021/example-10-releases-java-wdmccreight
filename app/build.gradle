@@ -88,7 +88,7 @@ tasks.named('jar') {
     destinationDirectory = file("${rootDir}/dist/")
 }
 
-tasks.named('sourcesjar') {
+tasks.named('sourcesJar') {
     manifest {
         attributes('Implementation-Title': project.name,
                     'Implementation-Version': project.version)
@@ -97,7 +97,7 @@ tasks.named('sourcesjar') {
     destinationDirectory = file("${rootDir}/dist/")
 }
 
-tasks.named('javadocjar') {
+tasks.named('javadocJar') {
     manifest {
         attributes('Implementation-Title': project.name,
                     'Implementation-Version': project.version)
